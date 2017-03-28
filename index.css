@@ -1,0 +1,46 @@
+.homeImg{
+	width: 100%; 
+    height: auto; 
+}
+
+.box{
+	
+	margin-top: 120px;
+	margin-left: 20px;
+	margin-right: 20px;
+border: solid black ;
+background-color: gray;
+
+}
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 
+b div div {
+	width : 90%;
+ }
+
+  }
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+	b div div {
+	width : 90%;
+ }
+
+  }
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-xs-min) { 
+
+b div div {
+	width : 40%;
+ }
+ }
+
+
