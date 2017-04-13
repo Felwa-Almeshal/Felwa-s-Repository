@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DROPIUM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQW-Gy-AIo">
+                                <rect key="frame" x="147" y="295" width="77" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ba1-7t-hlm">
+                                <rect key="frame" x="84" y="440" width="202" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forget password?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vBC-g8-SWb">
+                                <rect key="frame" x="117" y="526" width="141" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UnI-v3-N9P">
+                                <rect key="frame" x="84" y="386" width="202" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gba-2X-ted">
+                                <rect key="frame" x="84" y="488" width="202" height="30"/>
+                                <color key="backgroundColor" red="0.47219181060791016" green="0.81826335191726685" blue="0.94401991367340088" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="imageEdgeInsets" minX="50" minY="50" maxX="20" maxY="20"/>
+                                <state key="normal" title="Log In" backgroundImage="مستطيل++-01-1.png">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="قطرة-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="4VV-HH-Psa">
+                                <rect key="frame" x="57" y="91" width="260" height="446"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="448" id="aLi-Js-7jv"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.35828638080000003" green="0.42543667550000003" blue="0.53760749100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gba-2X-ted" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="68" id="1AM-X5-u33"/>
+                            <constraint firstItem="4VV-HH-Psa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="37" id="1jp-ri-FWF"/>
+                            <constraint firstItem="gba-2X-ted" firstAttribute="top" secondItem="ba1-7t-hlm" secondAttribute="bottom" constant="18" id="52H-zD-CE0"/>
+                            <constraint firstItem="4VV-HH-Psa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="37" id="6FO-pe-bCo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vBC-g8-SWb" secondAttribute="trailing" constant="101" id="AwK-ED-ILX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4VV-HH-Psa" secondAttribute="trailing" constant="42" id="GGV-qq-jfh"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4VV-HH-Psa" secondAttribute="bottom" constant="128" id="Hc0-Iz-8mZ"/>
+                            <constraint firstItem="KQW-Gy-AIo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="131" id="Hft-f8-coy"/>
+                            <constraint firstItem="UnI-v3-N9P" firstAttribute="top" secondItem="KQW-Gy-AIo" secondAttribute="bottom" constant="70" id="OLk-i8-GCx"/>
+                            <constraint firstItem="gba-2X-ted" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="468" id="P73-gZ-FwH"/>
+                            <constraint firstItem="vBC-g8-SWb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="101" id="R9A-7n-GPG"/>
+                            <constraint firstItem="vBC-g8-SWb" firstAttribute="top" secondItem="gba-2X-ted" secondAttribute="bottom" constant="8" id="Sty-Om-rAw"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vBC-g8-SWb" secondAttribute="bottom" constant="120" id="ToQ-cY-8qK"/>
+                            <constraint firstItem="4VV-HH-Psa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="71" id="W6v-gu-suA"/>
+                            <constraint firstItem="KQW-Gy-AIo" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="275" id="aj7-Dq-aes"/>
+                            <constraint firstItem="4VV-HH-Psa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="37" id="bU1-cq-Jn7"/>
+                            <constraint firstItem="UnI-v3-N9P" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="68" id="dUq-bB-4gm"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vBC-g8-SWb" secondAttribute="bottom" constant="120" id="dYL-rO-TJb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KQW-Gy-AIo" secondAttribute="trailing" constant="135" id="dc1-QU-5AY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4VV-HH-Psa" secondAttribute="trailing" constant="42" id="dfH-8S-SP4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gba-2X-ted" secondAttribute="trailing" constant="73" id="k6h-Pu-7e0"/>
+                            <constraint firstItem="ba1-7t-hlm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="68" id="kSM-k6-0Qi"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="UnI-v3-N9P" secondAttribute="bottom" constant="251" id="mUA-TP-6fl"/>
+                            <constraint firstItem="vBC-g8-SWb" firstAttribute="top" secondItem="4VV-HH-Psa" secondAttribute="bottom" constant="-13" id="rmk-5R-hQU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ba1-7t-hlm" secondAttribute="trailing" constant="73" id="s0g-lK-v2K"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="UnI-v3-N9P" secondAttribute="trailing" constant="73" id="t6X-BN-iLl"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="keyPath">
+                                <integer key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <connections>
+                        <outlet property="pass" destination="ba1-7t-hlm" id="t4e-pf-0iF"/>
+                        <outlet property="roundedButton" destination="gba-2X-ted" id="Nmh-FL-UKU"/>
+                        <outlet property="username" destination="UnI-v3-N9P" id="8iQ-DS-pwV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="56.799999999999997" y="38.23088455772114"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="قطرة-01.png" width="2667" height="4733"/>
+        <image name="مستطيل++-01-1.png" width="3083" height="4733"/>
+    </resources>
+</document>
